@@ -1,0 +1,25 @@
+.Main {
+  align-items: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & > p {
+    font-size: 6rem;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+
+  & > .texto-veio {
+    display: none;
+    
+    &.visible{
+      display: block;
+    }
+  }
+}
